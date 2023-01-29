@@ -1,15 +1,16 @@
-## Structure of  Compilers
+# Structure of  Compilers
 
-1. [Lexical Analysis](./02%20lexical_analysis.md)
 
-   Dividing texts into "words" and "tokens"
 
-   - Tokens: language-preserved keywords and syntaxes. 
-   - Words: user-defined variables
+1. [Lexical Analysis](./03%20lexical_analysis.md)
 
+   Dividing input texts "tokens"
+
+   - < token class , substring >
    
-
-2. [Parsing](./03%20top-down%20parsing.md)
+   
+   
+2. [Parsing](./04%20top-down%20parsing.md)
 
    Generates a parsing tree
 
@@ -19,7 +20,7 @@
 
    
 
-3. [Semantic Analysis](./05%20semantic-analysis.md)
+3. [Semantic Analysis](./06%20semantic-analysis.md)
 
    Compilers do limited semantic analysis to catch inconsistencies
 
@@ -38,7 +39,7 @@
    ```c++
    int x = y * 0;
    int x = 0;
-   // this optimisation is valid ONLY when "y" is a number
+   // this optimisation is valid ONLY if "y" is a number
    ```
 
    
@@ -46,7 +47,3 @@
 5. Code Generation
 
    Converts programme into Assembly code
-
-[./"02 lexical_analysis"]: 
-[./"02 lexical_analysis.md"]: 
-["./lexical_analysis.md"]: 
