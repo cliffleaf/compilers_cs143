@@ -1,5 +1,17 @@
 # Introduction to COOL
 
+Compiling COOL
+
+```
+coolc filename.cl
+```
+
+This generates an object file to run
+
+```
+spim filename.s
+```
+
 
 
 The variables are defined and used only in ``let-in`` block
